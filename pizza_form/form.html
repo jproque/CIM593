@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pizza Form</title>
+  <style media="screen">
+    p,h1 {text-align: center; color: grey;}
+    body {background: black;}
+    input {background: black; color: orange; border-color: grey;}
+    textarea {background: black; color: white; border-color: grey;}
+  </style>
+</head>
+
+<body>
+  <!-- Comments can be made with CRTL + / -->
+  <h1>Build Your Own Pizza</h1>
+  <form action="">
+    <p>
+      <label for="first_name">First Name: </label>
+      <input type="text" name="first_name" value="" placeholder="John">
+    </p>
+    <p>
+      <label for="last_name">Last Name: </label>
+      <input type="text" name="last_name" value="" placeholder="Smith">
+    </p>
+    <p>
+      <label for="address">Street: </label>
+      <input type="text" name="address" value="" placeholder="123 Main St.">
+    </p>
+    <p>
+      <label for="address">Suite: </label>
+      <input type="text" name="address" value="" placeholder="123">
+    </p>
+    <p>
+      <label for="address">City: </label>
+      <input type="text" name="address" value="" placeholder="City">
+    </p>
+    <p>
+      <label for="address">State: </label>
+      <input type="text" name="address" value="" placeholder="State">
+    </p>
+    <p>
+      <label for="address">Zip Code: </label>
+      <input type="text" name="address" value="" placeholder="11111">
+    </p>
+    <p>
+      <label for="size">Pizza Size (Choose One)</label>
+      <br>
+      <input type="radio" name="size" value="Small">Small<br>
+      <input type="radio" name="size" value="Medium">Medium<br>
+      <input type="radio" name="size" value="Large">Large
+    </p>
+    <p>
+      <label for="toppings">Pizza toppings (Check all that apply)</label>
+      <br>
+      <input type="checkbox" name="topping[]" value="Cheese">Cheese<br>
+      <input type="checkbox" name="topping[]" value="Mushrooms">Mushrooms<br>
+      <input type="checkbox" name="topping[]" value="Pepperoni">Pepperoni
+    </p>
+    <p>
+      <label for="extraCheese">Would you like EXTRA cheese?</label>
+      <br>
+      <input type="radio" name="extraCheese" value="Yes">Yes<br>
+      <input type="radio" name="extraCheese" value="No">No
+    </p>
+    <p>
+      <label for="comments">Comments: </label>
+      <br>
+      <textarea name="comments" rows="8" cols="80"></textarea>
+    </p>
+    <p>
+      <input type="submit" name="" value="Place Order">
+    </p>
+
+  </form>
+
+</body>
+
+</html>
